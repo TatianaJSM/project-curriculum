@@ -110,7 +110,42 @@ p {
     color: #333;
     line-height: 1.6;
 }
+/* Contenedor de habilidad */
+.skill {
+    margin-bottom: 15px;
+}
 
+/* Texto */
+.skill p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Barra fondo */
+.barra {
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Barra de nivel */
+.nivel {
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Niveles específicos */
+.nivel-espanol {
+    width: 100%;
+    background: #3498db;
+}
+
+.nivel-ingles {
+    width: 75%; /* B2 aprox */
+    background: #3498db;
+}
 /* Responsive (para celular) */
 @media (max-width: 600px) {
 
